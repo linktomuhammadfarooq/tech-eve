@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase, FaUser } from "react-icons/fa";
 import Farooq from "../assets/images/farooq.jpeg";
-import Ehtisham from "../assets/images/ehtisham.jpeg";
 import Junaid from "../assets/images/junaid.jpeg";
 const AboutUs = () => {
   const containerVariants = {
@@ -182,9 +181,9 @@ const AboutUs = () => {
               className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden"
               whileHover={{ scale: 1.1 }}
             >
-              <img src={Ehtisham} alt="Ehtisham Asghar" />
+              <FaUser size={100} />
             </motion.div>
-            <h3 className="text-2xl font-bold mb-2">Ehtisham Asghar</h3>
+            <h3 className="text-2xl font-bold mb-2">Muhammad Ehtisham</h3>
             <p className=" mb-4">COO/CPO,Founder</p>
             <div className="flex flex-wrap gap-2 justify-center">
               <span className="text-sm bg-gray-700 px-3 py-1 rounded-full">

@@ -333,9 +333,6 @@ const HeroSection = () => {
           Transforming Ideas into Digital Reality
         </p>
         <div className="space-y-4">
-          <p className="text-lg md:text-xl font-medium text-cyan-300 hover:text-cyan-200 transition-colors duration-300">
-            Innovative Software Solutions
-          </p>
           <p className="text-lg md:text-xl font-medium text-blue-300 hover:text-blue-200 transition-colors duration-300">
             Cloud-Native Applications
           </p>
